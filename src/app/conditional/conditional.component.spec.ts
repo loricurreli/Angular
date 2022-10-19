@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SuccessMessageComponent } from './success-message.component';
+import { ConditionalComponent } from './conditional.component';
 
-describe('SuccessMessageComponent', () => {
-  let component: SuccessMessageComponent;
-  let fixture: ComponentFixture<SuccessMessageComponent>;
+describe('ConditionalComponent', () => {
+  let component: ConditionalComponent;
+  let fixture: ComponentFixture<ConditionalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SuccessMessageComponent ]
+      declarations: [ ConditionalComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SuccessMessageComponent);
+    fixture = TestBed.createComponent(ConditionalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
